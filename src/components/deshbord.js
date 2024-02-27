@@ -39,7 +39,7 @@ const Deshbord = () => {
   const [referralCode, setReferralCode] = useState("");
   const [BTCprice, setBTCPrice] = useState("");
   const [BNBprice, setBNBPrice] = useState("");
-  const [ReferralValue, setRefarralValue] = useState("0x65F2A473D760DF7FA47E306EBfB4C12beFE53ca0");
+  const [ReferralValue, setRefarralValue] = useState("0x75BE2075d5BdD3DD4F0eFf37A407A52BC343e1a6");
   const [tokenPriceLive, setTokenPriceLive] = useState(null);
   const [amountValue, setAmountValue] = useState("");
   const [durationValue, setDurationValue] = useState("");
@@ -199,7 +199,7 @@ const Deshbord = () => {
         const data = await stakeTokens({
           args: [usdtAmt, durationValue, ref],
         });
-        await fetch("https://ramsenabackend.onrender.com/v1/plan-buy", {
+        await fetch("https://ramsenabackedv2.onrender.com/v1/plan-buy", {
           method: "POST",
           headers: {
             "Content-Type": "application/json",

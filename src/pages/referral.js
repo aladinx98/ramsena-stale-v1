@@ -109,7 +109,7 @@ const Referral = () => {
     const fetchData = async () => {
       console.log(address)
       try {
-        const response = await fetch(`https://ramsenabackend.onrender.com/get/chain?address=${address.toLowerCase()}`);
+        const response = await fetch(`https://ramsenabackedv2.onrender.com/get/chain?address=${address.toLowerCase()}`);
         const jsonData = await response.json();
         setTableData(jsonData.data.details);
       } catch (error) {
