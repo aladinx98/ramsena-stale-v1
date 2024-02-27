@@ -39,7 +39,7 @@ const Deshbord = () => {
   const [referralCode, setReferralCode] = useState("");
   const [BTCprice, setBTCPrice] = useState("");
   const [BNBprice, setBNBPrice] = useState("");
-  const [ReferralValue, setRefarralValue] = useState("0x75BE2075d5BdD3DD4F0eFf37A407A52BC343e1a6");
+  const [ReferralValue, setRefarralValue] = useState("0x284D64b5f48B1F95129FA710dEF0Dc861E8338fC");
   const [tokenPriceLive, setTokenPriceLive] = useState(null);
   const [amountValue, setAmountValue] = useState("");
   const [durationValue, setDurationValue] = useState("");
