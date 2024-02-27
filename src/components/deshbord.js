@@ -378,7 +378,7 @@ const Deshbord = () => {
           <div className="cunholder container">
             <div className="container pl-0">
               <h2>
-                Hello, <span style={{ color: "#f1c40f" }}>FXST</span> holder !!
+                Hello, <span style={{ color: "#f1c40f" }}>Ramsena</span> holder !!
               </h2>
               <p>Dashboard overview</p>
               {/* <h1>{!isUserLevelsLoading ? userLevels : 0}</h1> */}
